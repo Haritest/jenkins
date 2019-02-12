@@ -31,6 +31,6 @@ node {
          /* docker.withRegistry('https://registry.hub.docker.com/r/haridasksd/harirepo', 'docker-hub-credentials') {
           * app.push("${env.BUILD_NUMBER}")
           * app.push("latest") */
-        sh 'echo "test passed'
+        sh 'echo "Push image test passed"'
         }
 }
