@@ -33,5 +33,4 @@ node {
           * app.push("latest") */
         sh 'echo "test passed'
         }
-    }
 }
