@@ -18,6 +18,6 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
             sh 'echo "Tests passed"'
-            deleteDir()
+            cleanWs()
     }
 }
