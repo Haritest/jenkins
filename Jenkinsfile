@@ -11,6 +11,10 @@ node() {
         cleanWs()
         checkout scm
     }
+  
+  ansiColor('xterm') {
+  echo 'something that outputs ansi colored stuff'
+}
 
     stage('Build image') {
         /* This builds the actual image; synonymous to
