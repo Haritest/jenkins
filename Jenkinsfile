@@ -1,3 +1,5 @@
+
+@Library('my-test-library') _
 node() {
  try {
         String ANSI_GREEN = "\u001B[32m"
@@ -6,7 +8,7 @@ node() {
         String ANSI_RED = "\u001B[31m"
         String ANSI_YELLOW = "\u001B[33m"
   
-  @Library('my-test-library') _
+ 
   
   stage('Clone repository') {
         /* Let's make sure we have the repository cloned to our workspace */
