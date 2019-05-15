@@ -3,7 +3,7 @@
 
 stage('Demo') {
     echo 'Hello world'
-   // sayHello 'Dave'
+    sayHello 'Dave'
   //  sayHello 
-    MYJenkinsfile 'hari'
+    MYJenkinsfile
 }
