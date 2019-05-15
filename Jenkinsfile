@@ -1,7 +1,7 @@
 
 @Library('my-test-library') _
 
-Jenkinsfile.groovy
+   {Jenkinsfile}
 
 node() {
  try {
@@ -11,10 +11,7 @@ node() {
         String ANSI_RED = "\u001B[31m"
         String ANSI_YELLOW = "\u001B[33m"
   
- 
-  stage('test shared library')
-   {Jenkinsfile}
-  
+
   stage('Clone repository') {
         /* Let's make sure we have the repository cloned to our workspace */
         cleanWs()
