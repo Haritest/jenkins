@@ -1,7 +1,7 @@
 
 @Library('my-test-library') _
 
-{ Jenkinsfile }
+Jenkinsfile 
 node() {
  try {
         String ANSI_GREEN = "\u001B[32m"
