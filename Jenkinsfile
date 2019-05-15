@@ -1,7 +1,6 @@
 
 @Library('my-test-library') _
 
-   {Jenkinsfile}
 
 node() {
  try {
