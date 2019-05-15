@@ -1,7 +1,7 @@
 
 @Library('my-test-library') _
 
-build  {
+stage('build-test')  {
        Jenkinsfile
     }
 
