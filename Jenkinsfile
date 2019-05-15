@@ -1,7 +1,7 @@
 
 @Library('my-test-library') _
 
-stage('build-test')  {
-       MYJenkinsfile
-    }
-
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Dave'
+}
