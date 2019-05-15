@@ -4,5 +4,6 @@
 stage('Demo') {
     echo 'Hello world'
     sayHello 'Dave'
-    iMYJenkinsfile tse
+    sayHello 
+    MYJenkinsfile
 }
