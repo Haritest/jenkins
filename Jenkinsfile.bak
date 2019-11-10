@@ -1,6 +1,9 @@
 
 @Library('my-test-library') _
 
-   Jenkinsfile {
-
-   }
+stage('Demo') {
+    echo 'Hello world'
+//    sayHello 'Dave'
+  //  sayHello 
+    MYJenkinsfile()
+}
